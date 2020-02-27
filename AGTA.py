@@ -49,7 +49,8 @@ def play(round,i,j):
         player1_record.append(player1_thisturn)
         player2_record.append(player2_thisturn)
         k+=1
-    return player1_record.count(0)/float(len(player1_record)), player2_record.count(0)/float(len(player2_record))
+    return player1_record.count(0)/float(len(player1_record)),
+           player2_record.count(0)/float(len(player2_record))
 
 for i in range(0,4):
     for j in range(0,4):
